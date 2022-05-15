@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.bio-container {
+    width: 100%;
+    background-color: #f4f4f4;
+    font-family: 'Noto Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-me-header {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+    font-size: 30px;
+}
+
+.about-me-content {
+    display: flex;
+    height: 350px;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.portrait-container {
+    width: 40%;
+    height: 378px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+
+.portrait-container img {
+    object-fit: cover;
+    object-position: 0 40%;
+    width: 80%;
+    height: 80%;
+    border-radius: 3px;
+    box-shadow: -5px 5px 2px grey;
+}
+
+.bio-description {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    padding: 0 40px;
+    flex-wrap: wrap;
+}
+
+.bio-description p {
+    margin-bottom: 20px;
+    line-height: 28px;
+    color: #767676;
+}
+
+.contact {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid lightgrey;
+    background-color: rgb(87, 87, 87);
+}
+
+.contact a {
+    color: white;
+}
+
+
+
+@media screen and (max-width: 1060px) {
+    .about-me-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .portrait-container {
+        justify-content: center;
+        padding: 0;
+        height: 320px;
+    }
+
+    .about-me-content {
+        height: 100%;
+    }
+}

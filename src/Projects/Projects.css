@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.project-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.inner-project-container {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Noto Sans', sans-serif;
+    margin-top: 10%;
+}
+
+.inner-project-container h2 {
+    font-size: 30px;
+    color: rgb(45, 45, 45);
+    text-shadow: 0 0 3px lightgrey;
+}
+
+.inner-project-container h5 {
+    font-size: 18px;
+    color: rgb(45, 45, 45);
+    text-shadow: 0 0 3px lightgray;
+}
+
+.project-content-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 40px 0;
+}
+
+.project-card {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 10px;
+    margin: 20px 10px;
+    border-radius: 7px;
+    box-shadow: 0 0 3px grey;
+    background-color: #494949;
+}
+
+.project-card h3 {
+    color: rgb(232, 232, 232);
+    font-size: 24px;
+}
+
+.project-card h4 {
+    color: rgb(232, 232, 232);
+    font-weight: 300;
+}
+
+.demo {
+    width: 323.75px;
+    height: 226.17px;
+    margin: 20px 0;
+    display: inline-block;
+    border-radius: 7px;
+}
+
+.image-1 {
+    background: url("/public/images/MiniAccountant-Still.png") no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.image-1:hover {
+    background: url("/public/gifs/MiniAccountant-Sample.gif") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.image-2 {
+    background: url("/public/images/Sorbet-Still.png") no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.image-2:hover {
+    background: url("/public/gifs/Sorbet-Sample.gif") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.image-3 {
+    background: url("/public/images/Bevly-Still.png") no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.image-3:hover {
+    background: url("/public/gifs/Bevly-Sample.gif") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.image-4 {
+    background: url("/public/images/Quiz-App-Still.png") no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.image-4:hover {
+    background: url("/public/gifs/Quiz-App-Sample.gif") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.project-links {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+
+.project-links button {
+    width: 100px;
+    padding: 5px 5px;
+    border-radius: 7px;
+    background-color: white;
+    transition: background-color 0.2s ease;
+    border: none;
+    box-shadow: -2px 2px 2px rgb(30, 30, 30);
+}
+
+.project-links button:hover {
+    cursor: pointer;
+}
+
+.live-link:hover {
+    background-color: rgb(99, 202, 99);
+    color: white;
+}
+
+.github-link:hover {
+    background-color: rgb(190, 79, 190);
+    color: white;
+}
+
+.tech-container {
+    width: 94%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.tech-container li {
+    margin: 2.5px 5px;
+    padding: 5px 10px;
+    border-radius: 7px;
+    background-color: grey;
+    box-shadow: -2px 2px 2px rgb(30, 30, 30);
+    color: white;
+    font-size: 12px;
+}
