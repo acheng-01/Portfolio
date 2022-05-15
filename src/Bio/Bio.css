@@ -102,5 +102,6 @@
 
     .bio-container {
         height: 100%;
+        padding-top: 40px;
     }
 }
