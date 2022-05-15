@@ -10,25 +10,28 @@
     width: 100%;
     height: 100vh;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    font-family: 'Noto Sans', sans-serif;
+
 }
 
-.inner-landing-container {
+.upper-landing-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: 'Noto Sans', sans-serif;
 }
 
-.inner-landing-container h1 {
+.upper-landing-container h1 {
     font-size: 75px;
     font-weight: 700;
     color: rgb(45, 45, 45);
     text-shadow: 0 0 3px lightgrey;
 }
 
-.inner-landing-container h2 {
+.lower-landing-container h2 {
+    width: 375px;
     color: rgb(45, 45, 45);
     text-shadow: 0 0 3px lightgrey;
     overflow: hidden;
