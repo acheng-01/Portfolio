@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.43fc53e8.css",
+    "main.css": "/Portfolio/static/css/main.8d14d778.css",
     "main.js": "/Portfolio/static/js/main.51196976.js",
     "static/media/Bevly-Sample.gif": "/Portfolio/static/media/Bevly-Sample.4e980b3b23b2b95d4941.gif",
     "static/media/Bevly-Still.png": "/Portfolio/static/media/Bevly-Still.15070ba2d33158b7e5e0.png",
@@ -11,11 +11,11 @@
     "static/media/Quiz-App-Still.png": "/Portfolio/static/media/Quiz-App-Still.d8104d010563fddce183.png",
     "static/media/Sorbet-Still.png": "/Portfolio/static/media/Sorbet-Still.13c9a06afc315fd865c1.png",
     "index.html": "/Portfolio/index.html",
-    "main.43fc53e8.css.map": "/Portfolio/static/css/main.43fc53e8.css.map",
+    "main.8d14d778.css.map": "/Portfolio/static/css/main.8d14d778.css.map",
     "main.51196976.js.map": "/Portfolio/static/js/main.51196976.js.map"
   },
   "entrypoints": [
-    "static/css/main.43fc53e8.css",
+    "static/css/main.8d14d778.css",
     "static/js/main.51196976.js"
   ]
 }
