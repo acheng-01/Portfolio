@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.27c2a5c3.css",
+    "main.js": "/Portfolio/static/js/main.df8e6aa3.js",
+    "static/media/Bevly-Sample.gif": "/Portfolio/static/media/Bevly-Sample.4e980b3b23b2b95d4941.gif",
+    "static/media/Bevly-Still.png": "/Portfolio/static/media/Bevly-Still.15070ba2d33158b7e5e0.png",
+    "static/media/Sorbet-Sample.gif": "/Portfolio/static/media/Sorbet-Sample.454adc6360dd1bd37977.gif",
+    "static/media/MiniAccountant-Sample.gif": "/Portfolio/static/media/MiniAccountant-Sample.a383c5f88410af0add2f.gif",
+    "static/media/Quiz-App-Sample.gif": "/Portfolio/static/media/Quiz-App-Sample.b8de30535cf96670930c.gif",
+    "static/media/MiniAccountant-Still.png": "/Portfolio/static/media/MiniAccountant-Still.be61a68dc0ed314f4235.png",
+    "static/media/Quiz-App-Still.png": "/Portfolio/static/media/Quiz-App-Still.d8104d010563fddce183.png",
+    "static/media/Sorbet-Still.png": "/Portfolio/static/media/Sorbet-Still.13c9a06afc315fd865c1.png",
+    "index.html": "/Portfolio/index.html",
+    "main.27c2a5c3.css.map": "/Portfolio/static/css/main.27c2a5c3.css.map",
+    "main.df8e6aa3.js.map": "/Portfolio/static/js/main.df8e6aa3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.27c2a5c3.css",
+    "static/js/main.df8e6aa3.js"
+  ]
+}
